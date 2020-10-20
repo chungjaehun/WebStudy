@@ -1,0 +1,72 @@
+body {
+      background: #fff; color:#505050;
+      font-family: 'Malgun guthic', "Segoe UI', Tahoma, Geneva, Verdana";
+      font-size: 14px;
+}
+
+#jb-container {
+      margin: 10px auto;
+      padding: 20px;
+}
+#jb-header {
+      padding-left: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #bcbcbc;  
+}
+
+#jb-header h2 {font-size: 22px;}
+#jb-content h2, #jb-sidebar h2 {
+      font-size: 18px;
+      border-bottom: 1px solid #bcbcbc;
+      padding-bottom: 5px;}
+#jb-content h2{text-align: center}
+#jb-sidebar li {list-style: none; padding:1px}
+#jb-sidebar ul {padding: 0px;}
+#jb-sidebar a { text-decoration:none ; color:#505050}
+
+#jb-content {
+      padding-left: 20px;
+      margin-bottom: 20px;
+}
+#jb-sidebar {
+      padding-left: 20px;
+      margin-bottom: 20px;        
+}
+#jb-footer {
+      padding: 1px;
+      padding-left: 20px;
+      background-color: #bcbcbc ;
+      color: white ;
+}
+#jb-title {
+      border-bottom: 1px solid #bcbcbc;
+      border-top: 1px solid #bcbcbc;
+      border-left: 10px solid #bcbcbc;
+      padding-left: 20px;
+      margin-left: 0px;
+      margin-right: 0px;
+}
+#jb-comment{
+      background-color: #fafafa;
+      border-top: 1px solid #bcbcbc;
+      border-bottom: 1px solid #bcbcbc;
+      padding: 10px;
+      font-size:12px;
+}
+
+@media ( min-width: 781px ) {
+      #jb-container {
+            width: 1000px;
+      }
+      #jb-content {
+            width: 730px;
+            float: right;
+      }
+      #jb-sidebar {
+            width: 200px;
+            float: left;
+      }
+      #jb-footer {
+            clear: both;
+      }
+}
